@@ -14,6 +14,41 @@
 			"flags": {},
 			"children": [
 				{
+					"id": 85,
+					"name": "AnyStructs",
+					"variant": "declaration",
+					"kind": 2097152,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/effect-schema-viz/src/schema/compile.ts",
+							"line": 6,
+							"character": 12,
+							"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/compile.ts#L6"
+						}
+					],
+					"type": {
+						"type": "typeOperator",
+						"operator": "readonly",
+						"target": {
+							"type": "array",
+							"elementType": {
+								"type": "reference",
+								"target": 24,
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "Schema.Struct",
+								"package": "effect",
+								"qualifiedName": "Struct"
+							}
+						}
+					}
+				},
+				{
 					"id": 63,
 					"name": "getEdgeOptions",
 					"variant": "declaration",
@@ -34,7 +69,7 @@
 							"fileName": "packages/effect-schema-viz/src/schema/annotations/edge.ts",
 							"line": 31,
 							"character": 13,
-							"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations/edge.ts#L31"
+							"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations/edge.ts#L31"
 						}
 					],
 					"type": {
@@ -50,7 +85,7 @@
 									"fileName": "packages/effect-schema-viz/src/schema/annotations/edge.ts",
 									"line": 31,
 									"character": 29,
-									"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations/edge.ts#L31"
+									"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations/edge.ts#L31"
 								}
 							],
 							"signatures": [
@@ -129,7 +164,7 @@
 							"fileName": "packages/effect-schema-viz/src/schema/annotations/node.ts",
 							"line": 31,
 							"character": 13,
-							"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations/node.ts#L31"
+							"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations/node.ts#L31"
 						}
 					],
 					"type": {
@@ -145,7 +180,7 @@
 									"fileName": "packages/effect-schema-viz/src/schema/annotations/node.ts",
 									"line": 31,
 									"character": 29,
-									"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations/node.ts#L31"
+									"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations/node.ts#L31"
 								}
 							],
 							"signatures": [
@@ -232,7 +267,7 @@
 							"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 							"line": 53,
 							"character": 13,
-							"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L53"
+							"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L53"
 						}
 					],
 					"type": {
@@ -248,7 +283,7 @@
 									"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 									"line": 53,
 									"character": 25,
-									"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L53"
+									"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L53"
 								}
 							],
 							"signatures": [
@@ -365,7 +400,7 @@
 							"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 							"line": 75,
 							"character": 13,
-							"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L75"
+							"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L75"
 						}
 					],
 					"type": {
@@ -668,7 +703,7 @@
 													"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 													"line": 76,
 													"character": 2,
-													"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L76"
+													"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L76"
 												}
 											],
 											"type": {
@@ -684,7 +719,7 @@
 															"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 															"line": 77,
 															"character": 4,
-															"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L77"
+															"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L77"
 														}
 													],
 													"signatures": [
@@ -699,7 +734,7 @@
 																	"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 																	"line": 77,
 																	"character": 4,
-																	"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L77"
+																	"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L77"
 																}
 															],
 															"parameters": [
@@ -728,7 +763,7 @@
 																			"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 																			"line": 78,
 																			"character": 4,
-																			"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L78"
+																			"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L78"
 																		}
 																	],
 																	"signatures": [
@@ -743,7 +778,7 @@
 																					"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 																					"line": 78,
 																					"character": 4,
-																					"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L78"
+																					"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L78"
 																				}
 																			],
 																			"typeParameters": [
@@ -818,7 +853,7 @@
 													"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 													"line": 83,
 													"character": 2,
-													"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L83"
+													"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L83"
 												}
 											],
 											"type": {
@@ -834,7 +869,7 @@
 															"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 															"line": 84,
 															"character": 4,
-															"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L84"
+															"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L84"
 														}
 													],
 													"signatures": [
@@ -849,7 +884,7 @@
 																	"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 																	"line": 84,
 																	"character": 4,
-																	"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L84"
+																	"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L84"
 																}
 															],
 															"parameters": [
@@ -913,7 +948,7 @@
 																			"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 																			"line": 89,
 																			"character": 4,
-																			"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L89"
+																			"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L89"
 																		}
 																	],
 																	"signatures": [
@@ -928,7 +963,7 @@
 																					"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 																					"line": 89,
 																					"character": 4,
-																					"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L89"
+																					"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L89"
 																				}
 																			],
 																			"typeParameters": [
@@ -1007,7 +1042,7 @@
 											"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 											"line": 75,
 											"character": 51,
-											"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L75"
+											"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L75"
 										}
 									]
 								}
@@ -1027,7 +1062,7 @@
 							"fileName": "packages/effect-schema-viz/src/toDot.ts",
 							"line": 16,
 							"character": 13,
-							"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/toDot.ts#L16"
+							"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/toDot.ts#L16"
 						}
 					],
 					"signatures": [
@@ -1061,7 +1096,7 @@
 									"fileName": "packages/effect-schema-viz/src/toDot.ts",
 									"line": 17,
 									"character": 2,
-									"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/toDot.ts#L17"
+									"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/toDot.ts#L17"
 								}
 							],
 							"parameters": [
@@ -1104,7 +1139,7 @@
 											"fileName": "packages/effect-schema-viz/src/toDot.ts",
 											"line": 19,
 											"character": 2,
-											"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/toDot.ts#L19"
+											"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/toDot.ts#L19"
 										}
 									],
 									"signatures": [
@@ -1135,7 +1170,7 @@
 													"fileName": "packages/effect-schema-viz/src/toDot.ts",
 													"line": 19,
 													"character": 2,
-													"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/toDot.ts#L19"
+													"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/toDot.ts#L19"
 												}
 											],
 											"parameters": [
@@ -1147,11 +1182,7 @@
 													"flags": {},
 													"type": {
 														"type": "reference",
-														"target": {
-															"packageName": "effect-schema-viz",
-															"packagePath": "src/schema/compile.ts",
-															"qualifiedName": "AnyStructs"
-														},
+														"target": 85,
 														"name": "AnyStructs",
 														"package": "effect-schema-viz"
 													}
@@ -1185,7 +1216,7 @@
 							"fileName": "packages/effect-schema-viz/src/schema/annotations/edge.ts",
 							"line": 20,
 							"character": 13,
-							"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations/edge.ts#L20"
+							"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations/edge.ts#L20"
 						}
 					],
 					"signatures": [
@@ -1208,7 +1239,7 @@
 									"fileName": "packages/effect-schema-viz/src/schema/annotations/edge.ts",
 									"line": 21,
 									"character": 2,
-									"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations/edge.ts#L21"
+									"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations/edge.ts#L21"
 								}
 							],
 							"parameters": [
@@ -1243,7 +1274,7 @@
 											"fileName": "packages/effect-schema-viz/src/schema/annotations/edge.ts",
 											"line": 22,
 											"character": 2,
-											"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations/edge.ts#L22"
+											"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations/edge.ts#L22"
 										}
 									],
 									"signatures": [
@@ -1258,7 +1289,7 @@
 													"fileName": "packages/effect-schema-viz/src/schema/annotations/edge.ts",
 													"line": 22,
 													"character": 2,
-													"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations/edge.ts#L22"
+													"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations/edge.ts#L22"
 												}
 											],
 											"typeParameters": [
@@ -1340,7 +1371,7 @@
 							"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 							"line": 44,
 							"character": 13,
-							"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L44"
+							"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L44"
 						}
 					],
 					"signatures": [
@@ -1382,7 +1413,7 @@
 									"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 									"line": 45,
 									"character": 2,
-									"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L45"
+									"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L45"
 								}
 							],
 							"parameters": [
@@ -1419,7 +1450,7 @@
 											"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 											"line": 46,
 											"character": 2,
-											"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L46"
+											"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L46"
 										}
 									],
 									"signatures": [
@@ -1434,7 +1465,7 @@
 													"fileName": "packages/effect-schema-viz/src/schema/annotations.ts",
 													"line": 46,
 													"character": 2,
-													"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations.ts#L46"
+													"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations.ts#L46"
 												}
 											],
 											"typeParameters": [
@@ -1522,7 +1553,7 @@
 							"fileName": "packages/effect-schema-viz/src/schema/annotations/node.ts",
 							"line": 20,
 							"character": 13,
-							"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations/node.ts#L20"
+							"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations/node.ts#L20"
 						}
 					],
 					"signatures": [
@@ -1545,7 +1576,7 @@
 									"fileName": "packages/effect-schema-viz/src/schema/annotations/node.ts",
 									"line": 21,
 									"character": 2,
-									"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations/node.ts#L21"
+									"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations/node.ts#L21"
 								}
 							],
 							"parameters": [
@@ -1580,7 +1611,7 @@
 											"fileName": "packages/effect-schema-viz/src/schema/annotations/node.ts",
 											"line": 22,
 											"character": 2,
-											"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations/node.ts#L22"
+											"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations/node.ts#L22"
 										}
 									],
 									"signatures": [
@@ -1595,7 +1626,7 @@
 													"fileName": "packages/effect-schema-viz/src/schema/annotations/node.ts",
 													"line": 22,
 													"character": 2,
-													"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/schema/annotations/node.ts#L22"
+													"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/schema/annotations/node.ts#L22"
 												}
 											],
 											"typeParameters": [
@@ -1677,7 +1708,7 @@
 							"fileName": "packages/effect-schema-viz/src/toDot.ts",
 							"line": 41,
 							"character": 13,
-							"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/toDot.ts#L41"
+							"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/toDot.ts#L41"
 						}
 					],
 					"signatures": [
@@ -1727,7 +1758,7 @@
 									"fileName": "packages/effect-schema-viz/src/toDot.ts",
 									"line": 42,
 									"character": 2,
-									"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/toDot.ts#L42"
+									"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/toDot.ts#L42"
 								}
 							],
 							"parameters": [
@@ -1790,7 +1821,7 @@
 											"fileName": "packages/effect-schema-viz/src/toDot.ts",
 											"line": 44,
 											"character": 2,
-											"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/toDot.ts#L44"
+											"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/toDot.ts#L44"
 										}
 									],
 									"signatures": [
@@ -1821,7 +1852,7 @@
 													"fileName": "packages/effect-schema-viz/src/toDot.ts",
 													"line": 44,
 													"character": 2,
-													"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/toDot.ts#L44"
+													"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/toDot.ts#L44"
 												}
 											],
 											"parameters": [
@@ -1835,11 +1866,7 @@
 													},
 													"type": {
 														"type": "reference",
-														"target": {
-															"packageName": "effect-schema-viz",
-															"packagePath": "src/schema/compile.ts",
-															"qualifiedName": "AnyStructs"
-														},
+														"target": 85,
 														"name": "AnyStructs",
 														"package": "effect-schema-viz"
 													}
@@ -1867,7 +1894,7 @@
 							"fileName": "packages/effect-schema-viz/src/toDot.ts",
 							"line": 28,
 							"character": 13,
-							"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/toDot.ts#L28"
+							"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/toDot.ts#L28"
 						}
 					],
 					"signatures": [
@@ -1901,7 +1928,7 @@
 									"fileName": "packages/effect-schema-viz/src/toDot.ts",
 									"line": 29,
 									"character": 2,
-									"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/toDot.ts#L29"
+									"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/toDot.ts#L29"
 								}
 							],
 							"parameters": [
@@ -1964,7 +1991,7 @@
 											"fileName": "packages/effect-schema-viz/src/toDot.ts",
 											"line": 31,
 											"character": 2,
-											"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/toDot.ts#L31"
+											"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/toDot.ts#L31"
 										}
 									],
 									"signatures": [
@@ -1995,7 +2022,7 @@
 													"fileName": "packages/effect-schema-viz/src/toDot.ts",
 													"line": 31,
 													"character": 2,
-													"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/src/toDot.ts#L31"
+													"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/src/toDot.ts#L31"
 												}
 											],
 											"parameters": [
@@ -2007,11 +2034,7 @@
 													"flags": {},
 													"type": {
 														"type": "reference",
-														"target": {
-															"packageName": "effect-schema-viz",
-															"packagePath": "src/schema/compile.ts",
-															"qualifiedName": "AnyStructs"
-														},
+														"target": 85,
 														"name": "AnyStructs",
 														"package": "effect-schema-viz"
 													}
@@ -2036,6 +2059,12 @@
 				}
 			],
 			"groups": [
+				{
+					"title": "Type Aliases",
+					"children": [
+						85
+					]
+				},
 				{
 					"title": "Variables",
 					"children": [
@@ -2062,7 +2091,7 @@
 					"fileName": "packages/effect-schema-viz/index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/middle-ages/haag59-monorepo/blob/bb7d5a5814e57a3c1cee6720815a230802c189a6/packages/effect-schema-viz/index.ts#L1"
+					"url": "https://github.com/middle-ages/haag59-monorepo/blob/12ccb0d89db953b44f03dc0d10588d0c919d61db/packages/effect-schema-viz/index.ts#L1"
 				}
 			]
 		}
@@ -2756,6 +2785,11 @@
 			"packageName": "effect-schema-viz",
 			"packagePath": "src/schema/annotations/node.ts",
 			"qualifiedName": "schema"
+		},
+		"85": {
+			"packageName": "effect-schema-viz",
+			"packagePath": "src/schema/compile.ts",
+			"qualifiedName": "AnyStructs"
 		}
 	},
 	"files": {
