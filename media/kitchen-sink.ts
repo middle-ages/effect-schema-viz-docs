@@ -28,6 +28,7 @@ export const KitchenSink = Struct.styled('KitchenSink', {
   style: 'filled',
   fillcolor: 'white',
   fontname: 'CMU Typewriter Text',
+  margin: 1 / 12,
 })({
   string: Schema.String,
   number: Schema.Number,
