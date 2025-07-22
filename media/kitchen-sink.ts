@@ -1,6 +1,6 @@
 #!/usr/bin/env tsx
 
-import {Schema} from 'effect'
+import {Effect, Schema} from 'effect'
 import {schemasToDot, setNodeAttributes, Struct} from 'effect-schema-viz'
 
 const uniqueSymbolName = 'effect-schema-viz/test/schema'
@@ -63,9 +63,8 @@ export const KitchenSink = Struct.styled('KitchenSink', {
   personArray: Schema.Array(Person),
 })
 
-const dot = schemasToDot('Kitchen Sink', {bgcolor: 'grey75'})(
-  KitchenSink,
-  Person,
+const dot = await Effect.runPromise(
+  schemasToDot('Kitchen Sink', {bgcolor: 'grey75'})(KitchenSink, Person),
 )
 
 console.log(dot)

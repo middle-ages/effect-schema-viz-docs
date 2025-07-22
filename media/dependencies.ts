@@ -1,13 +1,13 @@
 #!/usr/bin/env tsx
 
-import {Array, pipe, Schema} from 'effect'
+import {type Pair} from '#util'
+import {Effect, Array, pipe, Schema} from 'effect'
 import {schemasToDot, Struct} from 'effect-schema-viz'
 import type {
   EdgeAttributesObject,
   GraphAttributesObject,
   NodeAttributesObject,
 } from 'ts-graphviz'
-import {type Pair} from '#util'
 
 const graphStyle = {
   bgcolor: 'gray90',
@@ -32,10 +32,9 @@ const edgeStyle = {
   arrowsize: 0.5,
 } as const satisfies EdgeAttributesObject
 
-const dot = schemasToDot(
-  'dependency tree example',
-  graphStyle,
-)(...buildStructs())
+const dot = await Effect.runPromise(
+  schemasToDot('dependency tree example', graphStyle)(...buildStructs()),
+)
 
 console.log(dot)
 
@@ -49,20 +48,20 @@ function buildStructs(): Array.NonEmptyReadonlyArray<Schema.Annotable.All> {
 function buildRoot<Fields extends Schema.Struct.Fields>(
   branches: Pair<Schema.Struct<Fields>>,
 ) {
-  return struct('Root')('₀', () => ({branches: Schema.Tuple(...branches)}))
+  return struct('Root')('_0', () => ({branches: Schema.Tuple(...branches)}))
 }
 
 function buildBranches<Fields extends Schema.Struct.Fields>([
   first,
   second,
 ]: Pair<Pair<Schema.Struct<Fields>>>) {
-  return [buildBranch('₁', first), buildBranch('₂', second)] as const
+  return [buildBranch('_1', first), buildBranch('_2', second)] as const
 }
 
 function buildLeaves() {
   return [
-    [buildLeaf('₁'), buildLeaf('₂')],
-    [buildLeaf('₃'), buildLeaf('₄')],
+    [buildLeaf('_1'), buildLeaf('_2')],
+    [buildLeaf('_3'), buildLeaf('_4')],
   ] as const
 }
 
