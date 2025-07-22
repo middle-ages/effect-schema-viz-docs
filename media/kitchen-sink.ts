@@ -24,11 +24,10 @@ const Person = setNodeAttributes({
 )
 
 export const KitchenSink = Struct.styled('KitchenSink', {
-  shape: 'plain',
+  shape: 'box',
   style: 'filled',
   fillcolor: 'white',
   fontname: 'CMU Typewriter Text',
-  margin: 1 / 12,
 })({
   string: Schema.String,
   number: Schema.Number,
